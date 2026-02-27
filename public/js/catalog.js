@@ -81,7 +81,7 @@ function loadDemoCatalogData() {
             categoryName: 'Внедорожный',
             price: 800000,
             description: 'Эндуро для бездорожья',
-            image: '/images/KTM 450 EXC',
+            image: '/images/KTM_450_EXC',
             inStock: true,
             type: 'motorcycle'
         },
