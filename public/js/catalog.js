@@ -81,7 +81,7 @@ function loadDemoCatalogData() {
             categoryName: 'Внедорожный',
             price: 800000,
             description: 'Эндуро для бездорожья',
-            image: 'https://via.placeholder.com/300x200',
+            image: 'https://avatars.mds.yandex.net/get-autoru-vos/2160241/249ced92d82b8e75f148a3f402482264/1200x900n',
             inStock: true,
             type: 'motorcycle'
         },

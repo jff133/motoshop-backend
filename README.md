@@ -10,7 +10,7 @@ MotoShop - это интернет-магазин мотоциклов и зап
 - Хостинг: Render
 
 ## Демо
-- Деплой: [ССЫЛКА_НА_RENDER_БУДЕТ_ПОЗЖЕ]
+- Деплой: - Деплой: [motoshop-backend-pt25.onrender.com](https://motoshop-backend-pt25.onrender.com)
 
 ## Автор
 Margarita
