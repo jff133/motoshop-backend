@@ -59,7 +59,7 @@ function loadDemoCatalogData() {
             categoryName: 'Спортивный',
             price: 1500000,
             description: 'Спортивный мотоцикл с мощным двигателем',
-            image: 'https://via.placeholder.com/300x200',
+            image: '/images/Yamaha_R1.png',
             inStock: true,
             type: 'motorcycle'
         },
@@ -70,7 +70,7 @@ function loadDemoCatalogData() {
             categoryName: 'Круизер',
             price: 1200000,
             description: 'Классический американский круизер',
-            image: 'https://via.placeholder.com/300x200',
+            image: '/images/harley_davidson_sportster_cruiser.png',
             inStock: true,
             type: 'motorcycle'
         },
@@ -92,7 +92,7 @@ function loadDemoCatalogData() {
             categoryName: 'Спортивный',
             price: 1800000,
             description: 'Легендарный спорт-турер',
-            image: 'https://via.placeholder.com/300x200',
+            image: "/images/suzuki.png",
             inStock: false,
             type: 'motorcycle'
         }
@@ -106,7 +106,7 @@ function loadDemoCatalogData() {
             categoryName: 'Тормозная система',
             price: 3500,
             description: 'Передние тормозные колодки',
-            image: 'https://via.placeholder.com/300x200',
+            image: '/images/stop_system.png',
             inStock: true,
             type: 'part'
         },
@@ -117,7 +117,7 @@ function loadDemoCatalogData() {
             categoryName: 'Двигатель',
             price: 800,
             description: 'Оригинальный масляный фильтр',
-            image: 'https://via.placeholder.com/300x200',
+            image: '/images/oil_filter.png',
             inStock: true,
             type: 'part'
         },
@@ -128,7 +128,7 @@ function loadDemoCatalogData() {
             categoryName: 'Выхлопная система',
             price: 45000,
             description: 'Спортивный глушитель',
-            image: 'https://via.placeholder.com/300x200',
+            image: '/images/akrapovic.png',
             inStock: true,
             type: 'part'
         },
@@ -139,7 +139,7 @@ function loadDemoCatalogData() {
             categoryName: 'Тормозная система',
             price: 8500,
             description: 'Передние тормозные диски',
-            image: 'https://via.placeholder.com/300x200',
+            image: 'images/stop_disk.png',
             inStock: true,
             type: 'part'
         }
