@@ -1,0 +1,23 @@
+# Директории
+node_modules/
+dist/
+coverage/
+
+# Файлы
+.env
+.DS_Store
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Тесты
+/test
+/e2e
+*.spec.ts
+*.e2e-spec.ts

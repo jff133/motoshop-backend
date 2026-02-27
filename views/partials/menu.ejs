@@ -1,0 +1,13 @@
+<nav class="nav">
+    <ul class="nav-list">
+        <li><a href="/" class="nav-link">Главная</a></li>
+        <li><a href="/catalog" class="nav-link">Каталог</a></li>
+        <% if (user) { %>
+            <li><a href="/profile" class="nav-link">Личный кабинет</a></li>
+            <li><a href="/logout" class="nav-link">Выйти</a></li>
+        <% } else { %>
+            <li><a href="/login" class="nav-link">Вход</a></li>
+            <li><a href="/register" class="nav-link">Регистрация</a></li>
+        <% } %>
+    </ul>
+</nav>

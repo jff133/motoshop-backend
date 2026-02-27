@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoShop - Каталог</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html"><h1>Moto<span>Shop</span></h1></a>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="catalog.html" class="active">Каталог</a></li>
+                        <li><a href="profile.html">Профиль</a></li>
+                        <li><a href="login.html" class="login-link">Войти</a></li>
+                    </ul>
+                </nav>
+                <div class="header-icons">
+                    <div class="search-icon" id="searchToggle">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="cart-icon" id="cartToggle">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                    <div class="mobile-menu" id="mobileMenu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="catalog">
+        <div class="container">
+            <h1 class="section-title">Каталог товаров</h1>
+            
+            <div class="catalog-filters">
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-type="all">Все</button>
+                    <button class="filter-tab" data-type="motorcycles">Мотоциклы</button>
+                    <button class="filter-tab" data-type="parts">Запчасти</button>
+                </div>
+            </div>
+
+            <div class="products-grid" id="catalogGrid">
+                <!-- Товары будут загружены через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MotoShop</h3>
+                    <p>Ваш надежный партнер в мире мотоциклов</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@motorshop.ru</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MotoShop. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/catalog.js"></script>
+</body>
+</html>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Корзина</h3>
+            <button id="closeCart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be displayed here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Итого:</span>
+                <span id="cartTotal">0 ₽</span>
+            </div>
+            <button class="btn btn-primary checkout-btn" onclick="checkout()">Оформить заказ</button>
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Корзина</h3>
+            <button id="closeCart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <div class="empty-cart">Корзина пуста</div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Итого:</span>
+                <span id="cartTotal">0 ₽</span>
+            </div>
+            <button class="btn btn-primary checkout-btn" onclick="checkout()">Оформить заказ</button>
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
